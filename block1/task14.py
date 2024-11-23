@@ -1,0 +1,20 @@
+from math import sin, radians, sqrt, cos
+
+x = int(input("введите x: "))
+y = int(input("введите y: "))
+a = int(input("введите a: "))
+b = int(input("введите b: "))
+n = int(input("введите n: "))
+print(f"2 * x = {2 * x}")
+print(f"sin(x) = {round(sin(radians(x)), 2)}")
+print(f"a * a = {a * a}")
+print(f"sqrt(x) = {round(sqrt(x), 2)}, {round(x ** 0.5, 2)}")
+print(f"abs(n) = {abs(n)}")
+print(f"5 * cos(y) = {round(5 * cos(radians(y)), 2)}")
+print(f"-7,5 * a*2 = {-7.5 * a * a}")
+print(f"3 * sqrt(x) = {round(3 * sqrt(x), 2)} ")
+print("sin a * cos b + cos a * sin b =",
+      f"{round(sin(a) * cos(b) + cos(a) * sin(b), 2)}")
+print(f"a * sqrt(2b) = {round(a * sqrt(2 * b), 2)}")
+print(f"3 sin 2*a * cos 3*b = {round(3 * sin(2 * a) * cos(3 * b), 2)}")
+print(f"-5 sqrt(x) + sqrt(y) = {round(-5 * sqrt(x) + sqrt(y), 2)}")
