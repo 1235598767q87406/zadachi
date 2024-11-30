@@ -1,0 +1,18 @@
+# from math import sqrt
+
+n = int(input("введите n: "))
+m = int(input("введите m: "))
+# x = int(input("введите x: "))
+# a = int(input("введите a: "))
+# b = int(input("введите b: "))
+# c = int(input("введите c: "))
+# print(f"- 1 /  {x} ** 2 = {- 1 / x ** 2}")
+# print(f"{a} + {b} / 2 = {(a + b) / 2}")
+# print(f"{a} / {b} * {c} = {a / b * c} ")
+# print(f"{a} * {b} / {c} = {a * b / c}")
+# print(f"5.45 * {a} + 2 * {b} / 2 - a = {5.45 * a + 2 * b / 2}")
+# print(f"-{b} + sqrt(b) ** 2 - {a} * {c} = {-b + sqrt(b) ** 2 - a}")
+# print(f"(-{b} + 1 / a) / (2 / c) = {round((-b + 1 / a) / (2 / c), 2)}")
+# print(f"1 / 1 + {a} + {b} / 2 = {1 / 1 + a + b / 2}")
+# print(1 + 1 / 2 + 1 / 2 + 3 / 5)
+print(f"(2 ** {m}) ** {n} = {(2 ** m) ** n}")
